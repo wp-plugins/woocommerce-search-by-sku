@@ -4,7 +4,7 @@ Donate link: http://www.codenterprise.com/
 Tags: search, sku, stock keeping unit, WooCommerce, ecommerce, e-commerce, commerce, woothemes, wordpress ecommerce, search by sku
 Requires at least: 3.0.1
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPL2
 
 Extend the search functionality of WooCommerce to include searching of sku 
@@ -31,6 +31,9 @@ Extend the search functionality of WooCommerce to include searching of sku in bo
 1. This is how plugin looks at back-end
 
 == Changelog ==
+= 1.1 = 
+* Added WP error reporting
+
 = 1.0 = 
 * First version
 

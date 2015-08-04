@@ -5,7 +5,7 @@
  * Plugin URI: visit http://www.codenterprise.com/corporate-profile/wordpress-plugins/
  * Description: The search functionality in woocommerce doesn't search by sku by default for variation. This simple plugin adds this functionality to both the admin site and regular search
  * Author: Code Enterprise
- * Version: 1.1
+ * Version: 1.2
  * Author URI: visit http://www.codenterprise.com
  * License: GPL2
  */
@@ -192,7 +192,7 @@ function get_parent_post_by_sku($sku, $ignoreIds) {
 		}
     
     $regularProductsSql = 
-        "SELECT p.ID as post_id FROM $wpdb->posts as pa
+        "SELECT p.ID as post_id FROM $wpdb->posts as p
         join $wpdb->postmeta pm
         on p.ID = pm.post_id
         and  pm.meta_key='_sku' 
